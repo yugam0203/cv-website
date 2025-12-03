@@ -348,13 +348,63 @@
   <span>LinkedIn</span>
   <span class="sr-only">Open LinkedIn profile (opens in new tab)</span>
 </a>
+<!-- ORCID -->
+<!-- ORCID -->
+<a href="https://orcid.org/0009-0002-2351-8315"
+   class="liquid-btn orcid"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="color:var(--accent-green);">
+
+  <span class="liquid-icon glow" aria-hidden="true">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img">
+      <defs>
+        <linearGradient id="orcid-grad" x1="0" x2="1">
+          <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+          <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+        </linearGradient>
+      </defs>
+
+      <!-- outer frame -->
+      <rect x="2" y="2" rx="10" ry="10" width="44" height="44"
+            fill="url(#orcid-grad)"
+            stroke="rgba(255,255,255,0.18)"
+            stroke-width="1" />
+
+      <!-- Official ORCID logo -->
+      <g transform="translate(12,10) scale(1.1)">
+        <!-- Green circle -->
+        <circle cx="12" cy="12" r="12" fill="#A6CE39"/>
+        <!-- iD text -->
+        <text x="7" y="16"
+              font-size="9"
+              font-family="Arial, Helvetica, sans-serif"
+              fill="white"
+              font-weight="bold">iD</text>
+      </g>
+
+      <!-- sheen highlight -->
+      <rect class="sheen"
+            x="-18" y="8"
+            width="30" height="10"
+            fill="white"
+            transform="rotate(-12)"
+            fill-opacity="0.14"/>
+    </svg>
+  </span>
+
+  <span>ORCID</span>
+  <span class="sr-only">Open ORCID profile (opens in new tab)</span>
+
+</a>
+
 
   </div>
 
   <!-- small key facts below -->
   <div class="mt-5 text-sm text-gray-700 leading-relaxed">
-    <p><strong>University of Jammu</strong> — MCA (2023–2025)</p>
-    <p>Focused on <strong><em>ML ,Computational theory, DBMS, Operating Systems, Software engeineering</em></strong> along with Languages such as <em>Python, R, Java, JavaScript, C/C++</em> — with a research research focussed project and real-world data modeling.</p>
+    <p><strong>University of Jammu</strong> — M.Sc.(Computer Science & Application) (2023–2025)</p>
+    <p>Focused on <strong><em>ML ,Computational theory, DBMS, Smart-Sensor, IoT, SmartWireless Systems, Operating Systems, Software engeineering</em></strong> along with Languages such as <em>Python, R, Java, JavaScript, C/C++</em> — with a research research focussed project and real-world data modeling.</p>
   </div>
 </div>
 </div> <!-- end .text-center -->
@@ -368,9 +418,36 @@
       <h2 class="text-2xl font-bold mb-4 flex items-center">
         <i class="lucide-user mr-2 text-blue-700"></i> About Me
       </h2>
-      <p class="leading-relaxed text-lg">
-        I am a postgraduate researcher with Master in Computer Science at the University of Jammu, where my work bridges machine learning, explainable AI, and psychological data modeling. My current research proposes the Hybrid SVM–XGBoost Geometric–Gradient Architecture (SXGA), an interpretable multi-domain framework that integrates statistical learning with transparent model reasoning. I am deeply interested in advancing technically grounded and interpretable ML systems that unify predictive performance with scientific insight—particularly in applications that demand trust, causality, and human-aligned understanding. My broader goal is to pursue doctoral research at the intersection of machine learning theory, hybrid modeling, and explainability, contributing to both algorithmic development and cross-domain translation of AI methods in academia and research labs.
-      </p>
+ <p>
+    I’m <strong>Yugam Padha</strong>, an AI researcher and engineer passionate about building intelligent systems that solve real-world problems. 
+    My work spans <strong>machine learning</strong>, <strong>explainable AI (XAI)</strong>, and <strong>advanced gas-sensing research</strong>, where I combine 
+    strong theoretical foundations with hands-on engineering to create models that are both powerful and interpretable.
+  </p>
+
+  <p>
+    Over the years, I’ve developed end-to-end AI pipelines for <strong>industrial gas sensing</strong> — from embedded hardware and firmware 
+    integration to data acquisition, deep learning modelling, and deployment. I also built 
+    <strong>SensorLab</strong>, a PyQt6-based desktop application that interfaces with STM32 hardware, ADS1220 ADCs, and 
+    temperature/humidity sensors, enabling real-time analytics and ML inference.
+  </p>
+
+  <p>
+    Beyond applied engineering, I actively research psychological AI, using <strong>SHAP</strong>, <strong>LIME</strong>, and 
+    hybrid ensemble architectures to create interpretable models that explore human-centered constructs such as depression, personality, 
+    and well-being. My published and ongoing research focuses on AI systems that are transparent, reliable, and grounded in 
+    domain expertise.
+  </p>
+
+  <p>
+    I’m currently preparing for a <strong>PhD in Computer Science</strong>.
+  </ul>
+  <p>
+    I’m driven by the belief that impactful AI requires a balance of innovation, interpretability, and meaningful application. 
+    Whether advancing gas-sensing technologies or designing interpretable psychological models, my goal is to create AI systems 
+    that contribute to science, society, and industry.
+  </p>
+
+  <p>If my work aligns with your vision, I’d love to connect.</p>
     </div>
   </section>
 
@@ -382,12 +459,16 @@
       </h2>
       <ul class="list-disc ml-6 space-y-2">
         <li>Machine Learning</li>
-        <li>Data Mining</li>
+        <li>Edge-AI</li>
+        <li>Smart Sensor System</li>
+        <li>IoT</li>
         <li>Algorithms</li>
         <li>Hybrid & Ensemble Learning Architectures</li>
         <li>Explainable Artificial Intelligence</li>
+        <li>AI enabled wireless systems</li>
         <li>Human-Centered AI Systems</li>
         <li>Scalable AI Infrastructure</li>
+        <li>Data Mining</li>
       </ul>
     </div>
   </section>
@@ -452,6 +533,39 @@ Analysis.</p>
         Future updates will include DOI or preprint link upon publication.
       </p>
     </article>
+    <article class="mt-2">
+      <h3 class="font-semibold text-lg text-blue-900">
+       A Geometric–Gradient Hybrid Learning Framework for Multi-Level Explainable AI.
+      <h4><em>(Manuscript submitted for peer review)</em></h4></h3>
+
+      <p class="text-sm text-gray-700 mt-1">
+        <strong>Authors:</strong> Y. Padha¹*, A. Chadha², D. Singh³, V. Sharma⁴  
+       
+      </p>
+
+      <p class="mt-3 leading-relaxed text-gray-800">
+        This work proposes a hybrid SVM + XGBoost architecture integrating geometric margin learning and gradient-boosted reasoning
+        to achieve superior predictive accuracy with explainable transparency.
+      </p>
+
+      <!--div class="mt-4 flex flex-wrap gap-3">
+        <a href="" target="_blank"
+           class="glass-btn inline-flex items-center gap-2">
+           📄 Link to Abstract
+        </a>
+      </div-->
+     <details >
+            <summary class="font-semibold">Abstract (click to expand)</summary>
+            <div class="mt-3 text-gray-800 leading-relaxed">
+              <p class="mt-4 text-gray-800 leading-relaxed">
+                This study advances the SVM–XGBoost Geometric–Gradient Architecture (SXGA) by integrating a multi-level explainability framework tailored for psychological construct classification. Using validated psychometric instruments (DASS-21, SWLS, BFI-44), three binary outcomes—depression severity, life satisfaction, and personality adaptability—were modeled on an augmented dataset (N = 5,269). The enhanced SXGA achieved high predictive performance (F1 ≥ 0.97) while preserving feature interpretability. A tiered XAI pipeline was introduced, combining SHAP for global attribution, LIME for instance-level interpretability, Force SHAP for individualized narrative reasoning, and Counterfactuals for actionable “what-if” analysis. A licensed clinical psychologist evaluated the explanations for face validity, theoretical coherence, and trust, reporting high interpretability and alignment with clinical cognition (mean rating = 4.87/5). Notably, counterfactual analysis revealed cross-construct behavioral markers (e.g., energy and agitation), suggesting transdiagnostic patterns relevant to therapeutic intervention. </p>
+            </div>
+          </details>
+      <p class="mt-4 text-xs text-gray-500">
+        Title-page and manuscript metadata provided (under review).  
+        Future updates will include DOI or preprint link upon publication.
+      </p>
+    </article>
     <!-- Ongoing Work (inside Publications card) -->
 <div class="mt-8 border-t border-gray-300 pt-6">
   <h3 class="text-xl font-semibold mb-3 flex items-center">
@@ -461,31 +575,74 @@ Analysis.</p>
   <article class="glass-card p-4">
     <div class="flex items-start justify-between">
       <div>
-        <h4 class="font-semibold text-blue-900">Extending SXGA: Hybrid Interpretability & Cross-Domain Generalization</h4>
-        <p class="text-sm text-gray-700 mt-1">Status: <strong>Ongoing — extension & expert validation</strong></p>
+        <h4 class="font-semibold text-blue-900">Industrial-Grade Deep Learning for Gas Sensing: Robust Calibration, Domain Adaptation & Real-Time Deployment</h4>
+        <p class="text-sm text-gray-700 mt-1">Status: <strong>Ongoing — data curation, model development & firmware integration</strong></p>
       </div>
     </div>
 
     <details class="mt-4">
-      <summary class="font-semibold">More Information (click to expand)</summary>
-      <div class="mt-3 text-gray-800 leading-relaxed">
-      <p class="mt-4 text-gray-800 leading-relaxed">
-      Building upon the original hybrid architecture, this ongoing study focuses on expanding interpretability and generalization across psychological and behavioral datasets. 
-      The project aims to strengthen <strong><em>cross-domain robustness</em></strong>, integrate <strong><em>clinician-oriented explanation dashboards</em></strong>, and introduce <strong><em>constrained counterfactual reasoning</em></strong> for actionable insight generation.
-      We are also developing <strong><em>evaluation frameworks</em></strong> to quantify interpretive consistency between machine explanations and expert judgments.
+  <summary class="font-semibold">More Information (click to expand)</summary>
+  <div class="mt-3 text-gray-800 leading-relaxed">
+    <p class="mt-4 text-gray-800 leading-relaxed">
+      This paper develops an industrial-grade deep learning pipeline for concentration prediction and gas classification from multi-condition sensor streams. 
+      The work emphasizes <strong><em>robust calibration under temperature/humidity drift</em></strong>, <strong><em>domain adaptation across sensors and environments</em></strong>, and <strong><em>real-time inference integration</em></strong> with the SensorLab application and embedded STM32 pipeline.
     </p>
 
     <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-800">
-      <li>Developing an <strong>interactive Force SHAP visualization platform</strong> for clinician feedback and comparative model interpretation.</li>
-      <li>Introducing <strong>structured counterfactual constraints</strong> to ensure realistic and psychologically valid feature perturbations.</li>
-      <li>Evaluating <strong>cross-dataset generalization</strong> with demographic and behavioral stratification to improve fairness and model adaptability.</li>
-      <li>Conducting <strong>expert-in-the-loop validation</strong> to bridge model reasoning with theoretical and clinical insights.</li>
+      <li>Curating heterogeneous datasets across concentration ranges, gas types, temperatures and humidity; implementing systematic data augmentation and sensor noise models.</li>
+      <li>Designing a hybrid model (signal-processing front-end + deep regression/classifier backbone) for accurate concentration estimation and gas ID under drift.</li>
+      <li>Applying domain adaptation & transfer learning to generalize across sensor batches and deployment sites (unsupervised & few-shot strategies).</li>
+      <li>Temperature/humidity compensation modules and uncertainty-aware predictions (calibrated confidence intervals for actionable alerts).</li>
+      <li>Edge-ready model optimization (quantization, pruning), and integration with SensorLab (PyQt6) + STM32 firmware (CDC serial) for real-time inference and CSV/XLSX export.</li>
+      <li>Robustness evaluation: adversarial noise, long-term drift tests, and cross-validation across demographic/environmental stratifications where applicable.</li>
     </ul>
 
     <p class="mt-4 text-gray-700">
-      This extension aims to transform the hybrid pipeline into a <strong><em>scalable, explainable, and human-aligned ML framework</em></strong> that can adapt across domains — from mental health analytics to broader AI applications requiring interpretability, trust, and real-world decision support.
+      Target outcome: a reproducible pipeline and open dataset splits plus a production-ready reference implementation that demonstrates reliability for lab → field transition.
     </p>
-</div>
+  </div>
+</details>
+<!-- Spacer -->
+      <div class="mt-8"></div>
+
+      <!-- Sparse SHAP Card -->
+      <div class="mt-8 border-t border-gray-300 pt-6">
+        <h3 class="text-xl font-semibold mb-3 flex items-center">
+          <i data-lucide="zap" class="mr-2 text-yellow-700"></i>
+          Methods — Sparse SHAP
+        </h3>
+
+        <article class="glass-card p-4">
+          <div class="flex items-start justify-between">
+            <div>
+              <h4 class="font-semibold text-yellow-900">Sparse SHAP: Fast Approximate SHAP Calculation for Large Tabular Models</h4>
+              <p class="text-sm text-gray-700 mt-1">Status: <strong>Ongoing — method development & benchmarking</strong></p>
+            </div>
+          </div>
+
+          <details >
+            <summary class="font-semibold">More Information (click to expand)</summary>
+            <div class="mt-3 text-gray-800 leading-relaxed">
+              <p class="mt-4 text-gray-800 leading-relaxed">
+                Sparse SHAP proposes a fast, approximate approach to computing SHAP-like attributions for very large tabular models by exploiting sparsity in feature interactions and using sampling + importance reweighting to reduce runtime while preserving faithfulness.
+                The method targets production use where exact SHAP is too slow or memory-heavy.
+              </p>
+
+              <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-800">
+                <li>Introduce sparsity-aware sampling schemes that select only a subset of feature coalitions most likely to contribute to the prediction.</li>
+                <li>Use importance reweighting and low-variance estimators to correct the bias introduced by sparse sampling.</li>
+                <li>Provide theoretical bounds on approximation error under realistic sparsity assumptions for tabular datasets.</li>
+                <li>Benchmark against TreeSHAP, KernelSHAP and other approximations on speed, memory, and fidelity (AUC of attribution ranking, correlation with exact SHAP).</li>
+                <li>Implement a PyTorch/Numpy reference implementation with CPU/GPU options, and integrate an interactive demo to visualize sparse attributions and compare with full SHAP results.</li>
+              </ul>
+
+              <p class="mt-4 text-gray-700">
+                Goal: enable interpretable explanations at production scale for large tabular models without prohibitive compute cost, and provide open-source code and evaluation scripts.
+              </p>
+            </div>
+          </details>
+        </article>
+      </div>
 
 
     <!-- Future Publications Placeholder -->
@@ -685,6 +842,7 @@ Analysis</h3><h4><span class="badge ml-2" style="background: linear-gradient(90d
           <li>scikit-learn, XGBoost, LightGBM, CatBoost</li>
           <li>TensorFlow, PyTorch, Keras</li>
           <li>Feature Engineering, Cross-Validation, Model Tuning</li>
+          <li>Smart-Sensor, AI Enabled Wireless System, Edge-AI</li>
         </ul>
       </div>
 
@@ -738,6 +896,7 @@ Analysis</h3><h4><span class="badge ml-2" style="background: linear-gradient(90d
     <p>📧 <a href="mailto:yugampadha@gmail.com" class="underline">yugampadha@gmail.com</a></p>
     <p>Contact Number: +917889980805</p>
     <p>© 2025 Yugam Padha</p>
+    <p>Last Updated December 2025</p>
   </footer>
 
 </body>
